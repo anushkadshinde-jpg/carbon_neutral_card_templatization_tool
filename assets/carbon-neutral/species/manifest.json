@@ -1,0 +1,130 @@
+[
+ {
+  "id": "frame-29",
+  "name": "Kanchan",
+  "local": "कांचन",
+  "botanical": "Bauhinia variegata",
+  "frame": 29,
+  "file": "frame-29-kanchan.png"
+ },
+ {
+  "id": "frame-30",
+  "name": "Jambhul",
+  "local": "जांभूळ",
+  "botanical": "Syzygium cumini",
+  "frame": 30,
+  "file": "frame-30-jambhul.png"
+ },
+ {
+  "id": "frame-31",
+  "name": "Aamba",
+  "local": "आंबा",
+  "botanical": "Mangifera indica",
+  "frame": 31,
+  "file": "frame-31-aamba.png"
+ },
+ {
+  "id": "frame-34",
+  "name": "Sitaphal",
+  "local": "सीताफळ",
+  "botanical": "Annona squamosa",
+  "frame": 34,
+  "file": "frame-34-sitaphal.png"
+ },
+ {
+  "id": "frame-35",
+  "name": "Karanj",
+  "local": "करंज",
+  "botanical": "Millettia pinnata",
+  "frame": 35,
+  "file": "frame-35-karanj.png"
+ },
+ {
+  "id": "frame-36",
+  "name": "Kadulimba",
+  "local": "कडुलिंब",
+  "botanical": "Azadirachta indica",
+  "frame": 36,
+  "file": "frame-36-kadulimba.png"
+ },
+ {
+  "id": "frame-37",
+  "name": "Awala",
+  "local": "आवळा",
+  "botanical": "Phyllanthus emblica",
+  "frame": 37,
+  "file": "frame-37-awala.png"
+ },
+ {
+  "id": "frame-38",
+  "name": "Kawath",
+  "local": "कवठ",
+  "botanical": "Limonia acidissima",
+  "frame": 38,
+  "file": "frame-38-kawath.png"
+ },
+ {
+  "id": "frame-39",
+  "name": "Phanas",
+  "local": "फणस",
+  "botanical": "Artocarpus heterophyllus",
+  "frame": 39,
+  "file": "frame-39-phanas.png"
+ },
+ {
+  "id": "frame-40",
+  "name": "Dandus",
+  "local": "",
+  "botanical": "Dalbergia lanceolaria",
+  "frame": 40,
+  "file": "frame-40-dandus.png"
+ },
+ {
+  "id": "frame-45",
+  "name": "Behada",
+  "local": "बेहडा",
+  "botanical": "Terminalia bellirica",
+  "frame": 45,
+  "file": "frame-45-behada.png"
+ },
+ {
+  "id": "frame-132",
+  "name": "Anjan",
+  "local": "अंजन",
+  "botanical": "Hardwickia binata",
+  "frame": 132,
+  "file": "frame-132-anjan.png"
+ },
+ {
+  "id": "frame-133",
+  "name": "Bor",
+  "local": "बोर",
+  "botanical": "Ziziphus mauritiana",
+  "frame": 133,
+  "file": "frame-133-bor.png"
+ },
+ {
+  "id": "frame-134",
+  "name": "Pimpal",
+  "local": "पिंपळ",
+  "botanical": "Ficus religiosa",
+  "frame": 134,
+  "file": "frame-134-pimpal.png"
+ },
+ {
+  "id": "frame-135",
+  "name": "Chinch",
+  "local": "चिंच",
+  "botanical": "Tamarindus indica",
+  "frame": 135,
+  "file": "frame-135-chinch.png"
+ },
+ {
+  "id": "frame-136",
+  "name": "Pangara",
+  "local": "पांगारा",
+  "botanical": "Erythrina subcurosa",
+  "frame": 136,
+  "file": "frame-136-pangara.png"
+ }
+]
