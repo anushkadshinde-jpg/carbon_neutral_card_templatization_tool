@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Playing Card Design Template · 14 Trees</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🂠</text></svg>">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/carbon.css">
+  <script type="module" src="js/shell.js"></script>
+  <script type="module" src="js/app.js"></script>
+  <script src="vendor/qrcode-generator.min.js"></script>
+  <script type="module" src="js/carbon.js"></script>
+</head>
+<body>
+  <div class="app" id="app">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <img src="assets/logo-14trees.png" alt="" width="58" height="60">
+      <span>14 Trees</span>
+    </div>
+    <button class="collapse" id="collapse" aria-label="Collapse sidebar" title="Collapse sidebar">
+      <svg viewBox="0 0 24 24" width="18" height="18"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+
+    <nav class="nav" aria-label="Main">
+      <a class="nav-item" href="#/" data-route="/">
+        <svg viewBox="0 0 24 24"><path d="M3 9.5 12 3l9 6.5V21h-6v-6H9v6H3z"/></svg>
+        <span>Home</span>
+      </a>
+
+      <div class="nav-group">
+        <button class="nav-item nav-toggle">
+          <svg viewBox="0 0 24 24"><path d="M8 3 3.5 10H6l-3 5h10l-3-5h2.5z"/><path d="M8 15v6"/><path d="m16 5-3.5 5.5H15l-2.5 4.5h7L17 10.5h2.5z"/><path d="M16 15v6"/></svg>
+          <span>Land &amp; Assets</span>
+          <svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="nav-sub">
+          <a class="nav-leaf" href="#" data-external>Locations</a>
+          <a class="nav-leaf" href="#" data-external>Trees</a>
+          <a class="nav-leaf" href="#" data-external>Featured Trees</a>
+          <a class="nav-leaf" href="#" data-external>Assets</a>
+        </div>
+      </div>
+
+      <div class="nav-group">
+        <button class="nav-item nav-toggle">
+          <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20v-1a5 5 0 0 1 5-5h3a5 5 0 0 1 5 5v1"/><path d="M15.5 4.6a3.5 3.5 0 0 1 0 6.8"/><path d="M18.5 14.2a5 5 0 0 1 3 4.8v1"/></svg>
+          <span>People</span>
+          <svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="nav-sub">
+          <a class="nav-leaf" href="#" data-external>Users</a>
+          <a class="nav-leaf" href="#" data-external>Groups</a>
+        </div>
+      </div>
+
+      <div class="nav-group">
+        <button class="nav-item nav-toggle">
+          <svg viewBox="0 0 24 24"><path d="M14.5 3.2a2.4 2.4 0 0 1 3.5 0 2.4 2.4 0 0 1 3.4 0c1 1 1 2.5 0 3.5L18 10l-3.5-3.3c-1-1-1-2.5 0-3.5z"/><path d="M3 13h3v8H3z"/><path d="M6 14h4.5l3 1.5a1.5 1.5 0 0 1-.7 2.8H10"/><path d="M6 20h7l7.5-4a1.6 1.6 0 0 0-1.6-2.7L14 15.5"/></svg>
+          <span>Engagement</span>
+          <svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="nav-sub">
+          <a class="nav-leaf" href="#" data-external>Tree Cards</a>
+          <a class="nav-leaf" href="#" data-external>Donations</a>
+          <a class="nav-leaf" href="#" data-external>Events</a>
+          <a class="nav-leaf" href="#" data-external>Campaigns</a>
+          <a class="nav-leaf" href="#" data-external>Visits</a>
+          <a class="nav-leaf" href="#" data-external>Corporate Dashboard</a>
+        </div>
+      </div>
+
+      <div class="nav-group">
+        <button class="nav-item nav-toggle">
+          <svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="1.5"/><path d="M8.5 16.5v-3M12 16.5v-7M15.5 16.5v-5"/></svg>
+          <span>Analytics</span>
+          <svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="nav-sub">
+          <a class="nav-leaf" href="#" data-external>Analytics</a>
+          <a class="nav-leaf" href="#" data-external>Tree Audit Verification</a>
+        </div>
+      </div>
+
+      <div class="nav-group open">
+        <button class="nav-item nav-toggle" aria-expanded="true">
+          <svg viewBox="0 0 24 24"><rect x="8.5" y="3" width="11" height="15" rx="2"/><path d="M5 6.5V19a2 2 0 0 0 2 2h9"/></svg>
+          <span>Templates</span>
+          <svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="nav-sub">
+          <a class="nav-leaf" href="#/templates/playing-card" data-route="/templates/playing-card">Playing Card template</a>
+          <a class="nav-leaf" href="#/templates/carbon-neutral-card" data-route="/templates/carbon-neutral-card">Carbon Neutral card</a>
+        </div>
+      </div>
+
+      <div class="nav-group">
+        <button class="nav-item nav-toggle">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          <span>Administration</span>
+          <svg class="chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="nav-sub">
+          <a class="nav-leaf" href="#" data-external>Settings</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="side-foot">
+      <button class="theme" data-external aria-label="Dark mode" title="Dark mode">
+        <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <div class="user-row">
+        <span class="user">Backoffice</span>
+        <button class="logout" data-external>
+          <svg viewBox="0 0 24 24"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+          <span>Logout</span>
+        </button>
+      </div>
+      <div class="version">
+        <svg viewBox="0 0 24 24" width="14" height="14"><circle cx="12" cy="12" r="10" fill="currentColor" stroke="none"/><path d="M12 11v6M12 7.5v.5" stroke="var(--forest)" stroke-width="2.5"/></svg>
+        <span>v2.13.21</span>
+      </div>
+    </div>
+  </aside>
+
+  <div class="content">
+  <!-- Landing view (no template open yet) -->
+  <main class="page" id="view-home" hidden>
+    <header class="page-head">
+      <h1>Templates</h1>
+    </header>
+    <div class="tiles">
+      <a class="tile" href="#/templates/playing-card">
+        <img src="assets/card_back.png" alt="">
+        <div>
+          <strong>Playing Card template</strong>
+          <span class="muted small">2.5 × 3.5 in family photo cards</span>
+        </div>
+      </a>
+      <a class="tile" href="#/templates/carbon-neutral-card">
+        <img src="assets/carbon-neutral/cover.png" alt="">
+        <div>
+          <strong>Carbon Neutral Card template</strong>
+          <span class="muted small">20 × 3.5 in accordion card with 14 species</span>
+        </div>
+      </a>
+    </div>
+  </main>
+
+  <main class="page" id="view-carbon" hidden></main>
+
+  <main class="page" id="view-tool" hidden>
+    <header class="page-head">
+      <h1>Playing Card Design Template</h1>
+    </header>
+
+    <nav class="tabs" aria-label="Progress">
+      <ol id="steps">
+        <li data-step="1">Add photos</li>
+        <li data-step="2">Check &amp; confirm</li>
+        <li data-step="3">Choose format</li>
+        <li data-step="4">Export</li>
+      </ol>
+    </nav>
+
+    <!-- Step 1–2: photos and layout -->
+    <section class="panel" id="layout-panel">
+      <div class="panel-head">
+        <h2><span class="num">1</span> Add photos</h2>
+      </div>
+
+      <label class="dropzone" id="dropzone">
+        <input type="file" id="bulk-input" multiple hidden>
+        <span class="drop-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M11 16V7.85l-2.6 2.6L7 9l5-5 5 5-1.4 1.45-2.6-2.6V16h-2Zm-5 4q-.825 0-1.412-.587Q4 18.825 4 18v-3h2v3h12v-3h2v3q0 .825-.587 1.413Q18.825 20 18 20H6Z"/></svg>
+        </span>
+        <span><strong>Drop up to 4 photos here</strong> or <span class="link">choose files</span></span>
+        <span class="muted">JPG, PNG or HEIC</span>
+      </label>
+      <p class="notice" id="bulk-msg" hidden></p>
+
+      <div class="cards" id="cards"></div>
+
+      <div class="confirm-bar" id="layout-bar">
+        <p id="layout-summary"></p>
+        <div class="bar-actions">
+          <button class="btn" id="edit-layout" hidden>Edit layout</button>
+          <button class="btn primary" id="confirm-layout" disabled>Confirm layout</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Step 3: format -->
+    <section class="panel locked" id="format-panel">
+      <div class="panel-head">
+        <h2><span class="num">2</span> File Name and Format</h2>
+      </div>
+
+      <div class="form-grid">
+        <div class="field">
+          <input id="label" type="text" placeholder="e.g. Sharma" aria-label="File name" autocomplete="off" maxlength="60">
+          <p class="muted small" id="name-preview">Files will be named like <code>Sharma_card1_20261027.png</code></p>
+        </div>
+
+        <fieldset class="field">
+          <legend>Format</legend>
+          <div class="formats" id="formats"></div>
+        </fieldset>
+
+        <label class="check">
+          <input type="checkbox" id="include-back" checked>
+          Also export the card back (same design as the rest of the deck)
+        </label>
+      </div>
+
+      <div class="confirm-bar">
+        <p id="format-summary"></p>
+        <div class="bar-actions">
+          <button class="btn" id="edit-format" hidden>Change format</button>
+          <button class="btn primary" id="confirm-format">Confirm format</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Step 4: export -->
+    <section class="panel locked" id="export-panel">
+      <div class="panel-head">
+        <div>
+          <h2><span class="num">3</span> Export</h2>
+          <p class="hint" id="export-hint"></p>
+        </div>
+        <button class="btn primary big" id="export-btn" disabled>
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="m12 16-5-5 1.4-1.45 2.6 2.6V4h2v8.15l2.6-2.6L17 11l-5 5Zm-6 4q-.825 0-1.412-.587Q4 18.825 4 18v-3h2v3h12v-3h2v3q0 .825-.587 1.413Q18.825 20 18 20H6Z"/></svg>
+          Export cards
+        </button>
+      </div>
+      <div class="progress" id="progress" hidden><div class="bar"></div><span></span></div>
+      <div id="results" hidden>
+        <div class="files" id="files"></div>
+        <div class="confirm-bar">
+          <div class="bar-actions">
+            <button class="btn danger-ghost" id="clear-all">Delete photos &amp; start over</button>
+            <button class="btn primary" id="download-zip">
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="m12 16-5-5 1.4-1.45 2.6 2.6V4h2v8.15l2.6-2.6L17 11l-5 5Zm-6 4q-.825 0-1.412-.587Q4 18.825 4 18v-3h2v3h12v-3h2v3q0 .825-.587 1.413Q18.825 20 18 20H6Z"/></svg>
+              Download all (.zip)
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" hidden></div>
+
+  <template id="card-tpl">
+    <article class="card">
+      <header class="card-head">
+        <h3></h3>
+      </header>
+      <div class="stage" tabindex="0">
+        <canvas></canvas>
+        <div class="empty">
+          <span class="plus">+</span>
+          <span>Add photo</span>
+          <span class="muted small">click or drop</span>
+        </div>
+        <div class="busy"><span class="spinner"></span><span class="busy-text">Finding faces…</span></div>
+      </div>
+      <div class="controls">
+        <div class="zoom-row">
+          <button class="icon" data-act="zoom-out" title="Zoom out" aria-label="Zoom out">−</button>
+          <input type="range" class="zoom" aria-label="Zoom">
+          <button class="icon" data-act="zoom-in" title="Zoom in" aria-label="Zoom in">+</button>
+        </div>
+        <div class="btn-row">
+          <button class="btn sm" data-act="reset" title="Back to automatic placement">Reset</button>
+          <button class="btn sm" data-act="fit" title="Fit the whole photo inside the card">Fit to frame</button>
+          <button class="btn sm" data-act="crop" title="Crop the photo">Crop</button>
+        </div>
+        <div class="btn-row">
+          <label class="fill-pick"><span class="field-label">Background</span>
+            <select class="fill">
+              <option value="blur">Blurred photo</option>
+              <option value="#ffffff">White</option>
+              <option value="custom">Colour…</option>
+            </select>
+            <input type="color" class="fill-color" value="#f3efe6" hidden>
+          </label>
+        </div>
+        <div class="btn-row links">
+          <button class="btn sm ghost" data-act="flip">Show back</button>
+          <button class="btn sm ghost" data-act="replace">Replace</button>
+          <button class="btn sm ghost danger" data-act="remove">Remove</button>
+        </div>
+      </div>
+      <ul class="checks"></ul>
+      <input type="file" class="file" hidden>
+    </article>
+  </template>
+
+  <dialog id="crop-dlg" class="crop-dlg">
+    <div class="crop-head">
+      <h3>Crop photo</h3>
+      <label class="fill-pick"><span class="field-label">Shape</span>
+        <select id="crop-aspect">
+          <option value="free">Free</option>
+          <option value="card">Card (2.5 × 3.5)</option>
+          <option value="square">Square</option>
+        </select>
+      </label>
+    </div>
+    <div class="crop-stage">
+      <div class="crop-wrap">
+        <canvas id="crop-canvas"></canvas>
+        <div id="crop-box" class="crop-box">
+          <span data-h="nw"></span><span data-h="ne"></span><span data-h="sw"></span><span data-h="se"></span>
+        </div>
+      </div>
+    </div>
+    <div class="crop-actions">
+      <button class="btn ghost" id="crop-clear">Undo crop</button>
+      <div class="bar-actions">
+        <button class="btn" id="crop-cancel">Cancel</button>
+        <button class="btn primary" id="crop-apply">Apply crop</button>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>
